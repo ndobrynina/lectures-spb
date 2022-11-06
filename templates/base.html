@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/uikit.min.css') }}" />
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/uikit.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/uikit-icons.min.js') }}"></script>
+
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8" http-equiv="refresh" content="60">
+  <title>События месяца</title>
+  {% block title %} {% endblock %}
+</head>
+<body class="uk-background-muted">
+  {% block body %} {% endblock %}
+</body>
+</html>
