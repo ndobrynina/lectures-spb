@@ -1,3 +1,5 @@
 # created by virtualenv automatically
-venv/Lib
+/shelf/
+/workspace.xml
 .idea
+__pycache__
